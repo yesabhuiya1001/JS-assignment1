@@ -26,7 +26,7 @@ console.log(totalCost)
 
 // find the leargest string from an array: Copied the structure from internet.
 var names = ["yesa", "musa", "ranajoy"]
-function findLongestWord(names) {
+function megaFriend(names) {
     var longest = [0];
 
   for(var i = 0; i < names.length; i++) {
@@ -36,5 +36,5 @@ function findLongestWord(names) {
      }
   return longest;
 }
-var largest = findLongestWord(names);
+var largest = megaFriend(names);
 console.log(largest)
